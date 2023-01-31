@@ -67,4 +67,4 @@ var allIssuesAreClosed = issues.every(function(issue) {
 tests["All issues are closed"] = allIssuesAreClosed;  
 ```
 
-[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/3701afbe3191ae18ab24)
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/25408364-2256d1cf-5675-46b5-86a6-82d014c9c796?action=collection%2Ffork&collection-url=entityId%3D25408364-2256d1cf-5675-46b5-86a6-82d014c9c796%26entityType%3Dcollection%26workspaceId%3De2239a59-d0c8-4491-ae61-e4c19ce78126#?env%5BAssignment_0%5D=W3sia2V5IjoiYm9va190aXRsZSIsInZhbHVlIjoiVHVyaW5nIiwiZW5hYmxlZCI6dHJ1ZSwidHlwZSI6ImFueSIsInNlc3Npb25WYWx1ZSI6IlR1cmluZyIsInNlc3Npb25JbmRleCI6MH0seyJrZXkiOiJpZCIsInZhbHVlIjoiIiwiZW5hYmxlZCI6dHJ1ZSwidHlwZSI6ImFueSIsInNlc3Npb25WYWx1ZSI6ImRTVVREQUFBUUJBSiIsInNlc3Npb25JbmRleCI6MX1d)

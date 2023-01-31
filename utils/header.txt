@@ -1,0 +1,22 @@
+Request Headers
+User-Agent: PostmanRuntime/7.30.0 //Is a characteristic string that enables servers and network peers to recognize the requesting user agent's program, operating system, vendor, and/or version.
+Accept: */* //Identifies the MIME kinds of material that the client can understand. 
+Postman-Token: ed47c840-b9b7-4186-b1a2-ed4d1a7ad2ce //This is just token that is sent from postman. 
+Host: www.googleapis.com //Specifies host and port number of server the request is going to. 
+Accept-Encoding: gzip, deflate, br //This shows how the data are encoded. 
+Connection: keep-alive - This just shows the connection is persistent, and not closed. 
+
+Response Headers
+Content-Type: application/json; charset=UTF-8 //Uses as info for json application. 
+Vary: Origin //Highlights the portions of the request message that, in addition to the method and URL, have an impact on the response's content.
+Vary: X-Origin //Another different vary header.
+Vary: Referer //Another different vary header. 
+Content-Encoding: gzip //Mostly uses to compress communication data without erasing the original media type's information.
+Date: Fri, 27 Jan 2023 06:48:08 GMT //Contains date and time when the message is originated.
+Server: ESF //Identifies the application used by the origin server, or server that produced the answer, in handling the request.
+Cache-Control: private //Contains instructions (directives) that regulate browser and shared cache caching, both in requests and replies.
+X-XSS-Protection: 0 //Is a feature of Internet Explorer, Chrome, and Safari that prevents websites from loading when they detect reflected cross-site scripting (XSS) attacks.
+X-Frame-Options: SAMEORIGIN //Can be used to specify whether a browser should be permitted to render a page in a <frame>, <iframe>, <embed>, or <object>.
+X-Content-Type-Options: nosniff //Is a marker used by the server to indicate that the MIME types advertised in the content-type headers should be followed and not be changed
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43" //Enables a server to specify that a different network location (the "alternative service") can be considered as authoritative for that origin when performing subsequent requests.
+Transfer-Encoding: chunked //Specifies the form of encoding used to safely transfer the payload body to the user.
